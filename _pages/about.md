@@ -1,86 +1,193 @@
 ---
 permalink: /
-title: ""
+title: "Professional Profile"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
 <style>
-  .matte-frame { border: 1px solid rgba(128,128,128,0.3); padding: 10px; margin-bottom: 1.5rem; height: 350px; }
-  .matte-frame img { width: 100%; height: 100%; object-fit: cover; }
-  
-  /* Pitch Callout Box - Light Mode */
-  .pitch { 
-    font-size: 1.05rem; 
+  /* Professional Pitch Box */
+  .pitch-box { 
+    font-size: 1.15rem; 
     color: #4a2c20; 
-    background-color: rgba(201, 138, 93, 0.15); 
-    border-left: 4px solid #9d3a26; 
-    padding: 1rem; 
-    margin-bottom: 2rem; 
-    font-weight: 500; 
-    border-radius: 0 4px 4px 0;
-    text-align: justify;
+    background: linear-gradient(135deg, rgba(201, 138, 93, 0.15) 0%, rgba(201, 138, 93, 0.05) 100%);
+    border-left: 6px solid #9d3a26; 
+    padding: 2rem; 
+    margin: 2rem 0; 
+    font-weight: 500;
+    line-height: 1.6;
+    border-radius: 0 8px 8px 0;
   }
   
-  /* Pitch Callout Box - Dark Mode */
-  html[data-theme="dark"] .pitch { 
+  html[data-theme="dark"] .pitch-box { 
     color: #dcd3c1; 
-    background-color: #262321; 
-    border-left-color: #c98a5d; 
+    background: #262321;
+    border-left-color: #c98a5d;
+  }
+
+  /* Competency & Project Grid */
+  .competency-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
   }
   
-  #about-me h2 { margin-top: 0.5rem; border-bottom: 1px solid rgba(128,128,128,0.2); }
-  #about-me p { font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; text-align: justify; }
-  
-  .tech-list { list-style: none; padding: 0; }
-  .tech-list li { 
-    font-size: 0.95rem; 
-    line-height: 1.5; 
-    margin-bottom: 1rem; 
-    text-align: justify; 
-    padding-left: 35px; /* Creates the indent for wrapping lines */
-    text-indent: -35px; /* Pulls the first line and icon back to the left */
+  .competency-item {
+    flex: 1 1 calc(50% - 1.2rem);
+    min-width: 280px;
+    background: rgba(128,128,128,0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(128,128,128,0.1);
+    transition: all 0.2s ease;
   }
-  .tech-list i { 
-    color: var(--primary-color); 
-    width: 25px; 
-    text-align: center; 
-    display: inline-block; 
+
+  .competency-item h3 { 
+    font-size: 1.1rem; 
+    margin: 0 0 0.8rem 0; 
+    color: #9d3a26; 
+    display: flex;
+    align-items: center;
+  }
+
+  .competency-item h3 i { margin-right: 12px; width: 20px; text-align: center; }
+  .competency-item ul { list-style: none !important; padding: 0 !important; margin: 0 !important; font-size: 0.9rem; }
+  .competency-item li { margin-bottom: 0.5rem; border: none; }
+  
+  /* Learning Badges */
+  .learning-badge {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    background: rgba(128, 128, 128, 0.04);
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: all 0.2s ease;
+    flex: 1 1 calc(50% - 1.2rem);
+  }
+  .learning-badge:hover {
+    background: #fff;
+    border-color: #9d3a26;
+    transform: translateY(-2px);
+  }
+  .learning-badge i { color: #9d3a26; margin-right: 12px; }
+
+  /* Project Details Styling */
+  summary { cursor: pointer; color: #9d3a26; font-weight: 600; font-size: 0.85rem; margin-top: 10px; outline: none; }
+  summary:hover { text-decoration: underline; }
+  .details-content { padding: 10px; font-size: 0.85rem; border-top: 1px solid rgba(128,128,128,0.2); margin-top: 10px; font-style: italic; }
+
+  .hero-frame { margin-bottom: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid rgba(128,128,128,0.2); }
+  .hero-frame img { width: 100%; height: 350px; object-fit: cover; display: block; }
+  
+  @media (max-width: 600px) { 
+    .competency-item, .learning-badge { flex: 1 1 100%; } 
   }
 </style>
 
-<section id="about-me">
-  <div class="matte-frame">
-    <img src="/images/PPWallpaper.JPG" alt="Poverty Point Sunset">
+<div class="pitch-box">
+  <strong>Bilingual (English/French) Project Professional</strong> specialized in GIS-based analytical systems and operational coordination. PhD-trained in leading complex initiatives—integrating technical workflows, environmental considerations, and stakeholder engagement to deliver actionable results.
+  <br><br>
+  <a href="{{ base_path }}/cv-professional/" class="btn btn--primary">View Professional CV</a>
+</div>
+
+## Professional Profile
+
+I coordinate technical and field-based initiatives within complex regulatory environments. With over a decade of experience, I manage large-scale data workflows and **remote operational logistics**, applying systems thinking to bridge the gap between technical research and strategic decision-support.
+
+My background includes navigating **Indigenous heritage concerns** and **environmental impact considerations**, focusing on proactive risk mitigation. I utilize **Agile (Scrum) principles** to maintain transparency and iterative progress across cross-functional workflows, driving projects from planning to final reporting.
+
+## Project Case Studies
+
+<div class="competency-grid">
+  <div class="competency-item">
+    <h3><i class="fas fa-map-pin"></i> Remote Logistics & Coordination</h3>
+    <p>Managed multi-disciplinary field logistics and team in the Maya Lowlands. Oversaw resource allocation and operational timelines, and project execution for remote four-person team.</p>
+    <details>
+      <summary>View Technical Details</summary>
+      <div class="details-content">
+        Integrated traditional archaeological excavations and data with GIS hydrological modeling at Yaxnohcah, Campeche. Navigated tropical rainforest logistics while maintaining data integrity across disparate software systems.
+      </div>
+    </details>
   </div>
 
-  <div class="pitch">
-    I am an Anthropological Archaeologist specializing in GIS-based spatial analysis and landscape phenomenology. My research bridges the gap between quantitative environmental modeling and human-scale experience, with a focus on monumental landscapes in the Southeastern US and the Maya Lowlands.
+  <div class="competency-item">
+    <h3><i class="fas fa-chart-line"></i> Analytical Systems Design</h3>
+    <p>Led the integration of large-scale Lidar and legacy spatial data to support landscape-scale modeling. Focused on converting complex environmental variables into actionable insights.</p>
+    <details>
+      <summary>View Technical Details</summary>
+      <div class="details-content">
+        Developed 3D visibility and hydrological models for the Poverty Point monumental landscape. Utilized ArcGIS Pro for quantitative affordance modeling.
+      </div>
+    </details>
   </div>
+</div>
 
-  <h2>About Me</h2>
+## Core Competencies
 
-  <p>I am an archaeologist whose work bridges scientific and humanistic approaches to the study of past landscapes. My research integrates geographic information systems (GIS), spatial analysis, and phenomenological perspectives to examine how environments are structured, experienced, and interpreted. Across my academic training and professional work, I have focused on addressing the longstanding divide between quantitative modeling and human-scale interpretation, treating them as complementary rather than competing approaches to archaeological knowledge.</p>
+<div class="competency-grid">
+  <div class="competency-item">
+    <h3><i class="fas fa-project-diagram"></i> Project Coordination</h3>
+    <ul>
+      <li>Strategic planning & Lifecycle management</li>
+      <li>Independent project execution</li>
+      <li>Stakeholder communication & reporting</li>
+    </ul>
+  </div>
+  <div class="competency-item">
+    <h3><i class="fas fa-map-marked-alt"></i> GIS & Geospatial</h3>
+    <ul>
+      <li>Spatial modeling & Data visualization</li>
+      <li>Analytical decision-support systems</li>
+      <li>Advanced ArcGIS Pro & QGIS</li>
+    </ul>
+  </div>
+  <div class="competency-item">
+    <h3><i class="fas fa-sync-alt"></i> Data & Agile Systems</h3>
+    <ul>
+      <li>Agile (Scrum) workflow management</li>
+      <li>Information synthesis & Documentation</li>
+      <li>Quantitative analysis (R/Python)</li>
+    </ul>
+  </div>
+  <div class="competency-item">
+    <h3><i class="fas fa-users"></i> Operations & Relations</h3>
+    <ul>
+      <li>Remote logistics & Field coordination</li>
+      <li>Indigenous & Stakeholder engagement</li>
+      <li>Operational risk mitigation</li>
+    </ul>
+  </div>
+</div>
 
-  <p>I hold a <a href="https://academicworks.cuny.edu/gc_etds/6509/">PhD in Anthropology</a> from the CUNY Graduate Center and a <a href="https://ucalgary.scholaris.ca/items/ad046493-9431-4fca-96c1-aebdc4496798">Master of Arts in Archaeology</a> from the University of Calgary. My academic training is grounded in an earlier undergraduate background in archaeology and philosophy, where I completed an honours thesis on shell midden sites in northeastern North America using legacy data to reconstruct site structure and formation processes. Alongside this work, I was employed for four years in an archaeological laboratory managing artifact collections, developing a sustained engagement with material culture, data organization, and curation practices.</p>
+## Professional Development & Credits
 
-  <p>My master’s research was based on fieldwork conducted at Yaxnohcah, located within the Calakmul Biosphere Reserve in the Yucatán Peninsula. There, I integrated GIS analysis with excavation data to investigate landscape hydrology and anthropogenic modification. This work examined how Maya communities reshaped the hydrological affordances of the region to expand their subsistence base and mitigate erosion, demonstrating that water management was not simply adaptive but actively structured through long-term landscape engineering.</p>
+<div class="competency-grid">
+  <a href="/cv-json/" class="learning-badge">
+    <i class="fas fa-certificate"></i>
+    <span class="badge-text">Advanced GIS Certificate (CUNY)</span>
+  </a>
+  <a href="/academic/" class="learning-badge">
+    <i class="fas fa-language"></i>
+    <span class="badge-text">Bilingual Proficiency (English/French)</span>
+  </a>
+  <a href="/cv-json/" class="learning-badge">
+    <i class="fas fa-sync-alt"></i>
+    <span class="badge-text">Agile & Scrum Methodologies</span>
+  </a>
+  <a href="/cv-json/" class="learning-badge">
+    <i class="fas fa-tools"></i>
+    <span class="badge-text">Technical Literacy (Git & Markdown)</span>
+  </a>
+</div>
 
-  <p>My doctoral research shifted to Poverty Point in northeastern Louisiana, a Late Archaic monumental site. This research evaluated four core dimensions of the landscape—layout, movement, visibility, and hydrology—to demonstrate that abstract, landscape-scale models and experiential, human-scale observations generate distinct but mutually reinforcing insights. By applying affordance theory, I offered a reinterpretation of Poverty Point grounded in both environmental structure and human experience.</p>
-
-  <p>Across these projects, I have worked in markedly different environmental contexts, from tropical lowlands to riverine and coastal regions. This range of experience has reinforced a pragmatic and context-sensitive approach in which methods are refined in response to specific research questions rather than applied as universal solutions.</p>
-
-  <p>Alongside research, I maintain a strong commitment to teaching and academic service, with particular attention to supporting students with diverse learning needs and backgrounds. My approach emphasizes clarity, structure, and accessibility while maintaining analytical rigor.</p>
-
-  <h2>Technical & Field Expertise</h2>
-  
-  <ul class="tech-list">
-    <li><i class="fas fa-fw fa-map-marked-alt"></i> <strong>GIS & Remote Sensing:</strong> Advanced proficiency in <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview">ArcGIS Pro</a>, ArcGIS Desktop, <a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview">ArcGIS Online</a>, and <a href="https://qgis.org/">QGIS</a>.</li>
-    <li><i class="fas fa-fw fa-mountain"></i> <strong>Field Research:</strong> Diverse experience across North America, from northeastern shell middens to the Maya Lowlands. Conducted major research at monumental sites, including the Late Archaic earthworks of <a href="https://whc.unesco.org/en/list/1435/">Poverty Point, LA</a> and the Maya city of Yaxnohcah, Campeche, in the tropical rainforests of the Yucatán Peninsula.</li>
-    <li><i class="fas fa-fw fa-layer-group"></i> <strong>Spatial Analysis:</strong> Expertise in Lidar Analysis, <a href="https://www.nv5geospatialsoftware.com/Products/ENVI">ENVI</a>, and Drone Photogrammetry using <a href="https://www.agisoft.com/">Agisoft Metashape</a>.</li>
-    <li><i class="fas fa-fw fa-code"></i> <strong>Data & Quantitative Methods:</strong> Statistical analysis and scripting in <a href="https://www.r-project.org/">R</a> and <a href="https://www.python.org/">Python</a>, alongside document preparation in <a href="https://www.latex-project.org/">LaTeX</a>.</li>
-    <li><i class="fas fa-fw fa-vials"></i> <strong>Laboratory & Design:</strong> Professional experience in Collections Management, Database Management (<a href="https://www.claris.com/filemaker/">FileMaker Pro</a>, <a href="https://endnote.com/">EndNote</a>), and digital illustration via <a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a> and <a href="https://www.coreldraw.com/">CorelDRAW</a>.</li>
-  </ul>
-</section>
+<div style="margin-top: 3rem; padding: 1.5rem; background: rgba(128,128,128,0.05); border-radius: 8px; text-align: center; border: 1px solid rgba(128,128,128,0.1);">
+  Looking for my research and publications? <a href="/academic" style="font-weight: 600; text-decoration: underline;">Visit the Academic Portfolio</a>.
+</div>

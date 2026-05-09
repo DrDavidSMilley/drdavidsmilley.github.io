@@ -1,0 +1,66 @@
+{
+  "basics": {
+    "name": "Dr. David Steven Milley",
+    "label": "Project Professional | GIS & Spatial Analyst",
+    "email": "david.milley@gmail.com",
+    "summary": "Highly organized professional with advanced expertise in interdisciplinary project management and Geographic Information Systems (GIS). Demonstrated ability to lead cross-functional teams, manage complex data workflows, and deliver actionable insights for technical and non-technical stakeholders."
+  },
+  "education": [
+    {
+      "institution": "Hunter College, CUNY",
+      "area": "Geographic Information Systems",
+      "studyType": "Advanced Certificate",
+      "endDate": "2022"
+    },
+    {
+      "institution": "The Graduate Center, CUNY",
+      "area": "Anthropological Archaeology (Data Modeling Focus)",
+      "studyType": "PhD",
+      "endDate": "2025"
+    }
+  ],
+  "work": [
+    {
+      "company": "Canada Post Corporation",
+      "position": "GIS Technician",
+      "location": "Ottawa, ON",
+      "startDate": "2025",
+      "endDate": "Present",
+      "highlights": [
+        "Managing spatial data and delivery implementation scenarios within the Ottawa region.",
+        "Providing technical GIS support for strategic route planning and logistics coordination."
+      ]
+    },
+    {
+      "company": "International Operations (USA / Mexico / Canada)",
+      "position": "Project Lead & Spatial Analyst",
+      "location": "Remote & Field-Based",
+      "startDate": "2018",
+      "endDate": "2024",
+      "highlights": [
+        "Directed multi-disciplinary teams in high-stakes environments, managing logistics, safety protocols, and operational timelines.",
+        "Led large-scale GIS and LiDAR data integration projects to support environmental and spatial modeling.",
+        "Coordinated stakeholder relations and regulatory compliance across diverse jurisdictional frameworks.",
+        "Synthesized technical geospatial findings into actionable reports for non-technical leadership."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Geospatial Intelligence",
+      "keywords": ["ArcGIS Pro", "QGIS", "LiDAR Processing", "Spatial Statistics", "Hydrological Modeling", "Drone Photogrammetry", "Agisoft Metashape"]
+    },
+    {
+      "name": "Project & Data Management",
+      "keywords": ["Agile (Scrum)", "Operational Logistics", "Stakeholder Engagement", "Risk Mitigation", "Technical Writing", "Database Administration"]
+    },
+    {
+      "name": "Programming & Systems",
+      "keywords": ["R", "Python", "Git", "Markdown", "Jekyll", "VS Code", "Remote Data Collection"]
+    },
+    {
+      "name": "Language & Communication",
+      "keywords": ["Bilingual (English/French)", "Public Speaking", "Cross-Cultural Coordination"]
+    }
+  ] 
+}
