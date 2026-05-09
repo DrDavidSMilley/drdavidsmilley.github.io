@@ -12,5 +12,5 @@ author_profile: true
 {% include cv-professional-template.html %}
 
 <div class="cv-download-links">
-  <a href="{{ base_path }}/files/MilleyCV_Professional.pdf.pdf" class="btn btn--primary">Download Professional CV (PDF)</a>
+  <a href="{{ base_path }}/files/MilleyCV_Professional.pdf" class="btn btn--primary">Download Professional CV (PDF)</a>
 </div>
