@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div class="pitch-box">
-  This record highlights my expertise in <strong>Project Management</strong> and <strong>GIS Analysis</strong>. For my academic record, please see my <a href="/cv/">Academic CV</a>.
+  This record highlights my expertise in <strong>Project Management</strong> and <strong>GIS Analysis</strong>. For my academic qualifications, please see my <a href="/cv-json/">Academic CV</a>.
 </div>
 
 {% include cv-professional-template.html %}

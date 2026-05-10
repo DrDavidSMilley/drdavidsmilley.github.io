@@ -93,38 +93,38 @@ redirect_from:
 </style>
 
 <div class="pitch-box">
-  <strong>Bilingual (English/French) Project Professional</strong> specialized in GIS-based analytical systems and operational coordination. PhD-trained in leading complex initiatives—integrating technical workflows, environmental considerations, and stakeholder engagement to deliver actionable results.
+  <strong>Bilingual (English/French) Project Professional</strong> specializing in GIS-based analytical systems and operational coordination. PhD-trained in delivering complex, data-driven initiatives that integrate technical workflows, environmental constraints, and stakeholder requirements into practical outputs.
   <br><br>
   <a href="{{ base_path }}/cv-professional/" class="btn btn--primary">View Professional CV</a>
 </div>
 
 ## Professional Profile
 
-I coordinate technical and field-based initiatives within complex regulatory environments. With over a decade of experience, I manage large-scale data workflows and **remote operational logistics**, applying systems thinking to bridge the gap between technical research and strategic decision-support.
+I design and manage technical and field-based projects within complex international regulatory environments. With over *8 years of experience* managing **large-scale data workflows** and remote operational logistics, I integrate analytical, technical, and interdisciplinary approaches to support research, operational coordination, and strategic decision-making,
 
-My background includes navigating **Indigenous heritage concerns** and **environmental impact considerations**, focusing on proactive risk mitigation. I utilize **Agile (Scrum) principles** to maintain transparency and iterative progress across cross-functional workflows, driving projects from planning to final reporting.
+My background includes navigating **Indigenous heritage concerns** and **environmental impact considerations** across the United States, Mexico, and Canada, with a strong focus on proactive risk mitigation, flexible project design, and stakeholder coordination. I apply both *traditional project management methodologies* and *Agile (Scrum) principles* to maintain transparency, adaptability, and iterative progress across project workflows, driving initiatives from planning through final reporting.
 
 ## Project Case Studies
 
 <div class="competency-grid">
   <div class="competency-item">
     <h3><i class="fas fa-map-pin"></i> Remote Logistics & Coordination</h3>
-    <p>Managed multi-disciplinary field logistics and team in the Maya Lowlands. Oversaw resource allocation and operational timelines, and project execution for remote four-person team.</p>
+    <p>Managed multidisciplinary field logistics and team operations in remote regions of Campeche, Mexico. Oversaw project planning and execution, resource allocation, and operational timelines, for four-person team.</p>
     <details>
       <summary>View Technical Details</summary>
       <div class="details-content">
-        Integrated traditional archaeological excavations and data with GIS hydrological modeling at Yaxnohcah, Campeche. Navigated tropical rainforest logistics while maintaining data integrity across disparate software systems.
+        Integrated archaeological excavations, field data collection, and GIS-based hydrological modeling at Yaxnohcah, Campeche, Mexico. Coordinated field operations within challenging tropical rainforest environments, dynamically adapting project workflows to evolving field conditions and logistics while maintaining project continuity and ensuring timely delivery of objectives
+
       </div>
     </details>
-  </div>
-
+  </div>y
   <div class="competency-item">
     <h3><i class="fas fa-chart-line"></i> Analytical Systems Design</h3>
-    <p>Led the integration of large-scale Lidar and legacy spatial data to support landscape-scale modeling. Focused on converting complex environmental variables into actionable insights.</p>
+    <p>Developed and led a multi-year international research project. Integrated large-scale LiDAR, legacy datasets, and field survey data to model complex landscapes and scenarios. Converted large, multi-source environmental datasets into actionable archaeological and spatial insights.</p>
     <details>
       <summary>View Technical Details</summary>
       <div class="details-content">
-        Developed 3D visibility and hydrological models for the Poverty Point monumental landscape. Utilized ArcGIS Pro for quantitative affordance modeling.
+        Developed 3D visibility and hydrological GIS models of the Poverty Point monumental landscape in Louisiana. Combined geospatial datasets with field survey data using ArcGIS Pro to support spatial analysis and landscape interpretation.
       </div>
     </details>
   </div>
