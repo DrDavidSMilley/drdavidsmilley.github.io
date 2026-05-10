@@ -6,6 +6,23 @@
     "summary": "Highly organized professional with advanced expertise in interdisciplinary project management and Geographic Information Systems (GIS). Demonstrated ability to lead cross-functional teams, manage complex data workflows, and deliver actionable insights for technical and non-technical stakeholders."
   },
   "education": [
+        {
+      "institution": "The Graduate Center, CUNY",
+      "area": "Anthropological Archaeology",
+      "studyType": "PhD",
+      "endDate": "2025",
+      "summary": "Dissertation: Sensing Prehistory: A Framework Reconciling Scientific Modeling and Human Experience through Affordance Theory."
+    },
+    {
+      "area": "Anthropological Archaeology",
+      "studyType": "MPhil",
+      "endDate": "2024"
+    },
+    {
+      "area": "Anthropological Archaeology",
+      "studyType": "MA",
+      "endDate": "2022"
+    },
     {
       "institution": "Hunter College, CUNY",
       "area": "Geographic Information Systems",
@@ -13,10 +30,17 @@
       "endDate": "2022"
     },
     {
-      "institution": "The Graduate Center, CUNY",
-      "area": "Anthropological Archaeology (Data Modeling Focus)",
-      "studyType": "PhD",
-      "endDate": "2025"
+      "institution": "University of Calgary",
+      "area": "Archaeology",
+      "studyType": "MA",
+      "endDate": "2020",
+      "summary": "Thesis: Hydrological Landscape Analysis of a Sinuous Depression, Yaxnohcah, Mexico."
+    },
+    {
+      "institution": "University of New Brunswick",
+      "area": "Archaeology and Philosophy",
+      "studyType": "BA (First Class Honours)",
+      "endDate": "2017"
     }
   ],
   "work": [

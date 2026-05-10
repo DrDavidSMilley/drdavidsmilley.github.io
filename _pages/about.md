@@ -120,7 +120,7 @@ My background includes navigating **Indigenous heritage concerns** and **environ
   </div>y
   <div class="competency-item">
     <h3><i class="fas fa-chart-line"></i> Analytical Systems Design</h3>
-    <p>Developed and led a multi-year international research project. Integrated large-scale LiDAR, legacy datasets, and field survey data to model complex landscapes and scenarios. Converted large, multi-source environmental datasets into actionable archaeological and spatial insights<p>
+    <p>Developed and led a multi-year international research project. Integrated large-scale LiDAR, legacy datasets, and field survey data to model complex landscapes and scenarios. Converted large, multi-source environmental datasets into actionable archaeological and spatial insights.</p>
     <details>
       <summary>View Technical Details</summary>
       <div class="details-content">
