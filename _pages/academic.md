@@ -4,6 +4,7 @@ layout: single
 permalink: /academic/
 author_profile: true
 ---
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
 <style>
   /* Academic Pitch Box - Differentiated from the Home Page */
@@ -66,12 +67,6 @@ author_profile: true
 </div>
 
 <section class="academic-section">
-  <div class="academic-pitch">
-    My research integrates geographic information systems (GIS), spatial analysis, and phenomenological perspectives to examine how past landscapes were structured, experienced, and interpreted. I focus on bridging the gap between quantitative environmental modeling and human-scale archaeological knowledge.
-    <br><br>
-    <a href="{{ base_path }}/cv-json/" class="btn btn--primary">View Full Academic CV</a>
-  </div>
-
   <h2>Research Overview</h2>
   <p>I am an archaeologist whose work bridges scientific and humanistic approaches to the study of past landscapes. Across my academic training and professional work, I have focused on addressing the longstanding divide between quantitative modeling and human-scale interpretation, treating them as complementary rather than competing approaches to archaeological knowledge.</p>
 
@@ -93,3 +88,5 @@ author_profile: true
     <li><i class="fas fa-vials"></i> <strong>Collections & Laboratory:</strong> Professional experience in Collections Management and Database systems (FileMaker Pro, EndNote).</li>
   </ul>
 </section>
+<br>
+<a href="{{ base_path }}/cv-json/" class="btn btn--primary">View Full Academic CV</a>

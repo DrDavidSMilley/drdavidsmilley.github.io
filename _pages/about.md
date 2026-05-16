@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Professional Profile"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,25 +10,6 @@ redirect_from:
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
 <style>
-  /* Professional Pitch Box */
-  .pitch-box { 
-    font-size: 1.15rem; 
-    color: #4a2c20; 
-    background: linear-gradient(135deg, rgba(201, 138, 93, 0.15) 0%, rgba(201, 138, 93, 0.05) 100%);
-    border-left: 6px solid #9d3a26; 
-    padding: 2rem; 
-    margin: 2rem 0; 
-    font-weight: 500;
-    line-height: 1.6;
-    border-radius: 0 8px 8px 0;
-  }
-  
-  html[data-theme="dark"] .pitch-box { 
-    color: #dcd3c1; 
-    background: #262321;
-    border-left-color: #c98a5d;
-  }
-
   /* Competency & Project Grid */
   .competency-grid {
     display: flex;
@@ -38,6 +19,8 @@ redirect_from:
   }
   
   .competency-item {
+    display: flex;
+    flex-direction: column;
     flex: 1 1 calc(50% - 1.2rem);
     min-width: 280px;
     background: rgba(128,128,128,0.05);
@@ -58,7 +41,13 @@ redirect_from:
   .competency-item h3 i { margin-right: 12px; width: 20px; text-align: center; }
   .competency-item ul { list-style: none !important; padding: 0 !important; margin: 0 !important; font-size: 0.9rem; }
   .competency-item li { margin-bottom: 0.5rem; border: none; }
-  
+
+  /* Forces the details dropdown to anchor to the bottom of the card */
+  .competency-item details {
+    margin-top: auto;
+    width: 100%;
+  }
+    
   /* Learning Badges */
   .learning-badge {
     display: flex;
@@ -91,18 +80,17 @@ redirect_from:
     .competency-item, .learning-badge { flex: 1 1 100%; } 
   }
 </style>
+<h1 style="text-align: center;">Professional Profile</h1>
 
-<div class="pitch-box">
+## Executive Statement
   <strong>Bilingual (English/French) Project Professional</strong> specializing in GIS-based analytical systems and operational coordination. PhD-trained in delivering complex, data-driven initiatives that integrate technical workflows, environmental constraints, and stakeholder requirements into practical outputs.
-  <br><br>
-  <a href="{{ base_path }}/cv-professional/" class="btn btn--primary">View Professional CV</a>
-</div>
+  <br>
 
-## Professional Profile
+## Background
 
-I design and manage technical and field-based projects within complex international regulatory environments. With over *8 years of experience* managing **large-scale data workflows** and remote operational logistics, I integrate analytical, technical, and interdisciplinary approaches to support research, operational coordination, and strategic decision-making,
+I design and manage technical and field-based projects within complex international regulatory environments. With over *8 years of experience* managing **large-scale data workflows** and remote operational logistics, I integrate analytical, technical, and interdisciplinary approaches to support research, operational coordination, and strategic decision-making.
 
-My background includes navigating **Indigenous heritage concerns** and **environmental impact considerations** across the United States, Mexico, and Canada, with a strong focus on proactive risk mitigation, flexible project design, and stakeholder coordination. I apply both *traditional project management methodologies* and *Agile (Scrum) principles* to maintain transparency, adaptability, and iterative progress across project workflows, driving initiatives from planning through final reporting.
+My background includes navigating **Indigenous heritage** concerns and **environmental impact** considerations across the United States, Mexico, and Canada, with a strong focus on proactive risk mitigation, flexible project design, and stakeholder coordination. I apply both <u>traditional</u> **project management** methodologies and <u>agile</u> (Scrum) principles to maintain transparency, adaptability, and iterative progress across project workflows, driving initiatives from planning through final reporting.
 
 ## Project Case Studies
 
@@ -113,7 +101,7 @@ My background includes navigating **Indigenous heritage concerns** and **environ
     <details>
       <summary>View Technical Details</summary>
       <div class="details-content">
-        Integrated archaeological excavations, field data collection, and GIS-based hydrological modeling at Yaxnohcah, Campeche, Mexico. Coordinated field operations within challenging tropical rainforest environments, dynamically adapting project workflows to evolving field conditions and logistics while maintaining project continuity and ensuring timely delivery of objectives
+        Managed remote operations for the Yaxnohcah Archaeological Project in logistically challenging environments with no on-site institutional support. Directed a diverse, cross-functional field team and collaborated closely with Indigenous community stakeholders to ensure cross-cultural alignment and milestone execution. Developed complex 3D surface models in ArcMap and ArcGIS Pro to analyze the micro-topographic environmental impact of ancient canal systems on local hydrological networks.
       </div>
     </details>
   </div>
@@ -123,7 +111,7 @@ My background includes navigating **Indigenous heritage concerns** and **environ
     <details>
       <summary>View Technical Details</summary>
       <div class="details-content">
-        Developed 3D visibility and hydrological GIS models of the Poverty Point monumental landscape in Louisiana. Combined geospatial datasets with field survey data using ArcGIS Pro to support spatial analysis and landscape interpretation.
+        Initiated and executed a three-year initiative supported by a $250,000 USD funding mechanism at a UNESCO World Heritage Site. Monitored complex schedule risks while overseeing structural permitting across municipal and state regulatory frameworks. Deployed DJI UAV flights to resolve site structures via 3D photogrammetry models, running macro-level landscape models via ArcGIS Pro and QGIS over satellite-derived LiDAR profiles to reconstruct ancient hydrologic networks, pathways, and visibility swaths.
       </div>
     </details>
   </div>

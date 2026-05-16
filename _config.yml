@@ -36,12 +36,6 @@
     uri              : # URL
     email            : "david.milley@gmail.com" 
     links:
-      - label: "Academic CV"
-        icon: "fas fa-fw fa-graduation-cap"
-        url: /cv-json/
-      - label: "Professional CV"
-        icon: "fas fa-fw fa-briefcase"
-        url: /cv-professional/
       - label: "Google Scholar"
         icon: "fas fa-fw fa-graduation-cap"
         url: "https://scholar.google.com/citations?user=kmv8z-kAAAAJ&hl=en"

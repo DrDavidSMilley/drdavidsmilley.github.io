@@ -12,11 +12,11 @@ main:
   - title: "Home"
     url: /
   
-  - title: "Academic Portfolio"
-    url: /academic/
+  #- title: "Academic Portfolio"
+  #  url: /academic/
     
-  #- title: "CV"
-  #   url: /cv-json/
+  - title: "Resume"
+    url: /cv-professional/
     
   # - title: "Publications"
   #  url: /publications/
