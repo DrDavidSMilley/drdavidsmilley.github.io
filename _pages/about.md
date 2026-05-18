@@ -88,7 +88,7 @@ redirect_from:
 
 ## Background
 
-I design and manage technical and field-based projects within complex international regulatory environments. With over *8 years of experience* managing **large-scale data workflows** and remote operational logistics, I integrate analytical, technical, and interdisciplinary approaches to support research, operational coordination, and strategic decision-making.
+I design and manage technical and field-based projects within complex international regulatory environments. With over <u> 8 years of experience</u> managing **large-scale data workflows** and remote operational logistics, I integrate analytical, technical, and interdisciplinary approaches to support research, operational coordination, and strategic decision-making.
 
 My background includes navigating **Indigenous heritage** concerns and **environmental impact** considerations across the United States, Mexico, and Canada, with a strong focus on proactive risk mitigation, flexible project design, and stakeholder coordination. I apply both <u>traditional</u> **project management** methodologies and <u>agile</u> (Scrum) principles to maintain transparency, adaptability, and iterative progress across project workflows, driving initiatives from planning through final reporting.
 
