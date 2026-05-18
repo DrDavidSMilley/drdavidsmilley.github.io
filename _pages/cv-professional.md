@@ -9,7 +9,7 @@ author_profile: true
 
 <style>
   .cv-wrapper { line-height: 1.4; font-size: 0.95rem; color: var(--text-color, inherit); max-width: 800px; }
-  .cv-section-title { display: flex; align-items: center; margin: 1.5rem 0 0.5rem; padding-bottom: 4px; border-bottom: 2px solid var(--primary-color, rgba(128,128,128,0.5)); text-transform: uppercase; font-size: 1.05rem; font-weight: 800; letter-spacing: 1px; color: var(--heading-color, inherit); }
+  .cv-section-title { display: flex; align-items: center; margin: 2rem 0 0.5rem; padding-bottom: 4px; border-bottom: 2px solid var(--primary-color, rgba(128,128,128,0.5)); text-transform: uppercase; font-size: 1.05rem; font-weight: 800; letter-spacing: 1px; color: var(--heading-color, inherit); }
   .cv-section-title i { margin-right: 8px; font-size: 0.95rem; opacity: 0.8; color: var(--primary-color, inherit); }
   .cv-entry { display: flex; justify-content: space-between; margin-bottom: 0.8rem; }
   .cv-main { flex: 1; padding-right: 15px; }
@@ -26,53 +26,24 @@ author_profile: true
   .cv-list { margin: 4px 0 0 1rem; padding: 0; list-style: none; font-size: 0.85rem; }
   .cv-list li { margin-bottom: 4px; text-align: justify; position: relative; }
   .cv-list li::before { content: "•"; color: var(--primary-color, inherit); position: absolute; left: -1rem; font-weight: bold; }
-
+  .cv-download-links { 
+  text-align: center; 
+  width: 100%; 
+  margin-bottom: 1.5rem; 
+  display: block; 
+  }
+.cv-download-links .btn { 
+  display: inline-block !important; 
+  float: none !important; 
+  }
   /* Structured Minimalist Skills Layout */
-  .skills-container {
-    margin-top: 1rem;
-  }
-  .skill-group-row {
-    display: flex;
-    margin-bottom: 1rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid rgba(128,128,128,0.1);
-  }
-  .skill-group-row:last-child {
-    border-bottom: none;
-  }
-  .skill-row-label {
-    flex: 0 0 180px;
-    margin-right: 20px;       /* Adds breathing room before the grid items */
-    font-weight: 800;
-    font-size: 1rem;
-    color: var(--heading-color, inherit);
-    padding-top: 4px;
-  }
-  .skill-row-grid {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 8px;
-  }
-  .compact-tag {
-    display: flex;
-    align-items: center;     
-    justify-content: left;  
-    background: transparent;
-    border-left: 2px solid var(--primary-color, rgba(128,128,128,0.3));
-    padding: 4px 0 4px 8px;
-    font-size: 0.85rem;
-    font-weight: normal;
-    min-height: 36px;         
-    box-sizing: border-box;
-  }
-  .compact-tag i {
-    color: var(--primary-color, inherit);
-    opacity: 0.7;
-    margin-right: 8px;
-    font-size: 0.8rem;
-    flex-shrink: 0;           
-  }
+  .skills-container { margin-top: 1rem; }
+  .skill-group-row { display: flex; margin-bottom: 1rem; padding-bottom: 0.8rem; border-bottom: 1px solid rgba(128,128,128,0.1); }
+  .skill-group-row:last-child { border-bottom: none; }
+  .skill-row-label { flex: 0 0 180px; margin-right: 20px; font-weight: 800; font-size: 1rem; color: var(--heading-color, inherit); padding-top: 4px; }
+  .skill-row-grid { flex: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .compact-tag { display: flex; align-items: center; justify-content: left; background: transparent; border-left: 2px solid var(--primary-color, rgba(128,128,128,0.3)); padding: 4px 0 4px 8px; font-size: 0.85rem; font-weight: normal; min-height: 36px; box-sizing: border-box; }
+  .compact-tag i { color: var(--primary-color, inherit); opacity: 0.7; margin-right: 8px; font-size: 0.8rem; flex-shrink: 0; }
   
   /* Responsive grid scaling */
   @media (max-width: 850px) {
@@ -86,6 +57,24 @@ author_profile: true
   @media (max-width: 450px) {
     .skill-row-grid { grid-template-columns: 1fr; }             
   }
+
+  /* Percipio Asset Grid Layout */
+  .badge-card-grid { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
+  .percipio-card { display: flex; align-items: center; flex: 1 1 calc(50% - 1rem); min-width: 250px; background: rgba(128, 128, 128, 0.04); border: 1px solid rgba(128, 128, 128, 0.1); border-radius: 6px; padding: 1rem; text-decoration: none !important; color: inherit !important; transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease; }
+  .percipio-img { width: 90px; height: 90px; object-fit: contain; margin-right: 20px; filter: grayscale(30%); transition: filter 0.2s ease; }
+  .percipio-info h4 { margin: 0; font-size: 0.95rem; color: inherit; line-height: 1.2; }
+  .percipio-info p { margin: 4px 0 0 0; font-size: 0.8rem; opacity: 0.7; }
+  
+  /* Unified Parent Hover Execution */
+  .percipio-card:hover { background: rgba(128, 128, 128, 0.07); border-color: var(--primary-color, #9d3a26); transform: translateY(-2px); }
+  .percipio-card:hover .percipio-img { filter: grayscale(0%); }
+
+  /* Clear sticky focus emphasis immediately when mouse departures */
+  .percipio-card:focus,
+  .percipio-card:active { outline: none; background: rgba(128, 128, 128, 0.04); border-color: rgba(128, 128, 128, 0.1); transform: translateY(0); }
+  .percipio-card:focus .percipio-img,
+  .percipio-card:active .percipio-img { filter: grayscale(30%); }
+  .percipio-card:focus-visible { outline: 2px solid var(--primary-color, #9d3a26); outline-offset: 2px; }
 </style>
 
 <div class="cv-wrapper">
@@ -367,10 +356,43 @@ author_profile: true
       </div>
     </div>
   </div>
-</div>
-
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/MilleyCV_Professional.pdf" class="btn btn--primary">Download Professional CV (PDF)</a>
+  
+  <h2 class="cv-section-title"><i class="fas fa-certificate"></i> Professional Certifications</h2>
+  
+  <div class="badge-card-grid">
+    <a href="https://skillsoft.digitalbadges.skillsoft.com/ce11212e-d33d-49e8-b327-965d3e5734b3" class="percipio-card" target="_blank" rel="noopener noreferrer">
+      <img src="/files/skillsoft_badges/e6fba385-a1c5-4e05-be39-3efe80629410.png" class="percipio-img" alt="Agile Badge">
+      <div class="percipio-info">
+        <h4>PSM I Bootcamp April 2025: Session 1</h4>
+        <p>Skillsoft Percipio • 2026</p>
+      </div>
+    </a>
+    <a href="https://skillsoft.digitalbadges.skillsoft.com/bf5ecd00-76d1-4881-ad8f-bd811c229242" class="percipio-card" target="_blank" rel="noopener noreferrer">
+      <img src="/files/skillsoft_badges/f3483642-5c14-473a-9d19-b7107cdc187d.png" class="percipio-img" alt="Agile Badge">
+      <div class="percipio-info">
+        <h4>Scrum Guide (2020 Update): An Overview</h4>
+        <p>Skillsoft Percipio • 2026</p>
+      </div>
+    </a> 
+    <a href="https://skillsoft.digitalbadges.skillsoft.com/c204bb3f-9da1-45f8-b922-8723444344fc" class="percipio-card" target="_blank" rel="noopener noreferrer">
+      <img src="/files/skillsoft_badges/64236f55-32ed-441a-88a7-8e052a315034.png" class="percipio-img" alt="Agile Badge">
+      <div class="percipio-info">
+        <h4>Psychological Safety: Building a Culture of Inclusion and Innovation</h4>
+        <p>Skillsoft Percipio • 2026</p>
+      </div>
+    </a>  
+    <a href="https://skillsoft.digitalbadges.skillsoft.com/8f2766a5-a70a-443c-91bf-e8670878806c" class="percipio-card" target="_blank" rel="noopener noreferrer">
+      <img src="/files/skillsoft_badges/d6423369-4b95-470d-84ff-37be576585ef.png" class="percipio-img" alt="Agile Badge">
+      <div class="percipio-info">
+        <h4>Effective Team Communication</h4>
+        <p>Skillsoft Percipio • 2026</p>
+      </div>
+    </a>  
+  </div>
+  <br>
+  <div class="cv-download-links">
+    <a href="/files/MilleyCV_Professional.pdf" class="btn btn--primary">Download Professional CV (PDF)</a>
+  </div>
 </div>
 
 <div style="margin-top: 3rem; padding: 1.5rem; background: rgba(128,128,128,0.05); border-radius: 8px; text-align: center; border: 1px solid rgba(128,128,128,0.1);">

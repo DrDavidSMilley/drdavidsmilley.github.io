@@ -83,7 +83,7 @@ redirect_from:
 <h1 style="text-align: center;">Professional Profile</h1>
 
 ## Executive Statement
-  <strong>Bilingual (English/French) Project Professional</strong> specializing in GIS-based analytical systems and operational coordination. PhD-trained in delivering complex, data-driven initiatives that integrate technical workflows, environmental constraints, and stakeholder requirements into practical outputs.
+  <strong>Bilingual </strong> (English/French) <strong> PhD-trained Project Professional</strong> specializing in GIS-based analytical systems and operational coordination. Experienced in delivering complex, data-driven initiatives that integrate technical workflows, environmental constraints, and stakeholder requirements into practical outputs.
   <br>
 
 ## Background
@@ -95,23 +95,23 @@ My background includes navigating **Indigenous heritage** concerns and **environ
 ## Project Case Studies
 
 <div class="competency-grid">
-  <div class="competency-item">
-    <h3><i class="fas fa-map-pin"></i> Remote Logistics & Coordination</h3>
-    <p>Managed multidisciplinary field logistics and team operations in remote regions of Campeche, Mexico. Oversaw project planning and execution, resource allocation, and operational timelines, for four-person team.</p>
-    <details>
-      <summary>View Technical Details</summary>
-      <div class="details-content">
-        Managed remote operations for the Yaxnohcah Archaeological Project in logistically challenging environments with no on-site institutional support. Directed a diverse, cross-functional field team and collaborated closely with Indigenous community stakeholders to ensure cross-cultural alignment and milestone execution. Developed complex 3D surface models in ArcMap and ArcGIS Pro to analyze the micro-topographic environmental impact of ancient canal systems on local hydrological networks.
-      </div>
-    </details>
-  </div>
-  <div class="competency-item">
-    <h3><i class="fas fa-chart-line"></i> Analytical Systems Design</h3>
+<div class="competency-item">
+    <h3><i class="fas fa-chart-line"></i>Poverty Point Initiative </h3>
     <p>Developed and led a multi-year international research project. Integrated large-scale LiDAR, legacy datasets, and field survey data to model complex landscapes and scenarios. Converted large, multi-source environmental datasets into actionable archaeological and spatial insights.</p>
     <details>
       <summary>View Technical Details</summary>
       <div class="details-content">
-        Initiated and executed a three-year initiative supported by a $250,000 USD funding mechanism at a UNESCO World Heritage Site. Monitored complex schedule risks while overseeing structural permitting across municipal and state regulatory frameworks. Deployed DJI UAV flights to resolve site structures via 3D photogrammetry models, running macro-level landscape models via ArcGIS Pro and QGIS over satellite-derived LiDAR profiles to reconstruct ancient hydrologic networks, pathways, and visibility swaths.
+        Initiated a three-year project, supported by a $330,000 funding package, at a UNESCO World Heritage Site, defining deliverables, milestones, and resource requirements. Developed and maintained project timelines and budget, ensuring on-time and on-budget delivery. Successfully secured competitive funding proposals to finance all project phases. Procured all necessary permits and regulatory authorizations from state and local government bodies prior to project commencement. Established an environmental baseline through review of existing site reports and data, informing project scope and risk assessment. Ensured full regulatory compliance throughout project execution, adhering to all site-specific legal and environmental requirements. Led a cross-functional field team through three field phases, directing work allocation and ensuring execution. Managed operational logistics including travel, accommodation, and equipment procurement for remote-site deployments. Monitored and reassessed project risks in a dynamic field environment, adjusting schedule, scope, and objectives in response to emerging conditions. Conducted a drone survey using DJI drone to create a 3D -photogrammetry model of site landscape and structure. Performed extensive landscape modelling in ArcGIS Pro and QGIS using lidar and satellite imagery to reconstruct prehistoric hydrology, movement, and visibility. Authored project reports for institutional stakeholders, translating and communicating technical finding
+      </div>
+    </details>
+  </div>
+  <div class="competency-item">
+    <h3><i class="fas fa-map-pin"></i>Yaxnohcah Archaeology Project</h3>
+    <p>Managed multidisciplinary field logistics and team operations in remote regions of Campeche, Mexico. Oversaw project planning and execution, resource allocation, and operational timelines, for four-person team.</p>
+    <details>
+      <summary>View Technical Details</summary>
+      <div class="details-content">
+        Managed remote operations for the Yaxnohcah Archaeological Project in logistically challenging environments with no on-site institutional support. Directed a diverse, cross-functional field team and collaborated closely with Indigenous community stakeholders to ensure cross-cultural alignment and milestone execution. Developed complex 3D models using ArcMap and ArcGIS Pro to investigate the environmental impact of Maya canals on the local hydrology. Independently secured external project funding through competitive grant applications.
       </div>
     </details>
   </div>
@@ -121,7 +121,7 @@ My background includes navigating **Indigenous heritage** concerns and **environ
 
 <div class="competency-grid">
   <div class="competency-item">
-    <h3><i class="fas fa-project-diagram"></i> Project Coordination</h3>
+    <h3><i class="fas fa-project-diagram"></i>Project Management</h3>
     <ul>
       <li>Strategic planning & Lifecycle management</li>
       <li>Independent project execution</li>
@@ -129,7 +129,7 @@ My background includes navigating **Indigenous heritage** concerns and **environ
     </ul>
   </div>
   <div class="competency-item">
-    <h3><i class="fas fa-map-marked-alt"></i> GIS & Geospatial</h3>
+    <h3><i class="fas fa-map-marked-alt"></i>GIS & Geospatial</h3>
     <ul>
       <li>Spatial modeling & Data visualization</li>
       <li>Analytical decision-support systems</li>
@@ -137,7 +137,7 @@ My background includes navigating **Indigenous heritage** concerns and **environ
     </ul>
   </div>
   <div class="competency-item">
-    <h3><i class="fas fa-sync-alt"></i> Data & Agile Systems</h3>
+    <h3><i class="fas fa-sync-alt"></i>Data & Agile Systems</h3>
     <ul>
       <li>Agile (Scrum) workflow management</li>
       <li>Information synthesis & Documentation</li>
@@ -145,7 +145,7 @@ My background includes navigating **Indigenous heritage** concerns and **environ
     </ul>
   </div>
   <div class="competency-item">
-    <h3><i class="fas fa-users"></i> Operations & Relations</h3>
+    <h3><i class="fas fa-users"></i>Operations & Relations</h3>
     <ul>
       <li>Remote logistics & Field coordination</li>
       <li>Indigenous & Stakeholder engagement</li>
@@ -163,15 +163,15 @@ My background includes navigating **Indigenous heritage** concerns and **environ
   </a>
   <a href="/academic/" class="learning-badge">
     <i class="fas fa-language"></i>
-    <span class="badge-text">Bilingual Proficiency (English/French)</span>
+    <span class="badge-text">Bilingual Proficiency <br> (English/Français)</span>
   </a>
   <a href="/cv-json/" class="learning-badge">
     <i class="fas fa-sync-alt"></i>
-    <span class="badge-text">Agile & Scrum Methodologies</span>
+    <span class="badge-text">Skillsoft Percipio - Professional Scrum Master™ I (PSM I) <i>in-progress</i></span>
   </a>
   <a href="/cv-json/" class="learning-badge">
     <i class="fas fa-tools"></i>
-    <span class="badge-text">Technical Literacy (Git & Markdown)</span>
+    <span class="badge-text">Technical Literacy <br> (Git, Markdown, Python, Java)</span>
   </a>
 </div>
 

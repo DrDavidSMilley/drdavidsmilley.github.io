@@ -7,7 +7,7 @@
   # server process.
 
   # Basic Site Settings
-  locale                   : "en-US"
+  locale                   : "en-CA"
   site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
   title                    : "Dr. David S Milley"
   title_separator          : "-"
@@ -31,7 +31,7 @@
     name             : "Dr. David S. Milley"
     pronouns         : "he/him/his"
     languages        : "English/Français"
-    bio              : "Project & Analytical Professional | PhD"
+    #bio              : "Project & Analytical Professional | PhD"
     location         : "Ottawa, Canada"
   #employer         : ""
     uri              : # URL
@@ -83,7 +83,7 @@
     steam            : # Username
     telegram         : # URL
     tumblr           : # Username
-    twitter          : # Username for X / Twitter
+    twitter          : # Username for X / TwitterLink
     vine             : # Username
     weibo            : # Username
     wikipedia        : # Username
