@@ -352,7 +352,7 @@ author_profile: true
       <div class="skill-row-label">Languages</div>
       <div class="skill-row-grid">
         <span class="compact-tag"><i class="fas fa-comment"></i>English (Native)</span>
-        <span class="compact-tag"><i class="fas fa-comments"></i>French (Bilingual)</span>
+        <span class="compact-tag"><i class="fas fa-comments"></i>Français (Bilingual)</span>
       </div>
     </div>
   </div>

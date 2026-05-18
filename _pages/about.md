@@ -106,7 +106,7 @@ My background includes navigating **Indigenous heritage** concerns and **environ
     </details>
   </div>
   <div class="competency-item">
-    <h3><i class="fas fa-map-pin"></i>Yaxnohcah Archaeology Project</h3>
+    <h3><i class="fas fa-map-pin"></i>Yaxnohcah Archaeological Project</h3>
     <p>Managed multidisciplinary field logistics and team operations in remote regions of Campeche, Mexico. Oversaw project planning and execution, resource allocation, and operational timelines, for four-person team.</p>
     <details>
       <summary>View Technical Details</summary>
@@ -129,7 +129,7 @@ My background includes navigating **Indigenous heritage** concerns and **environ
     </ul>
   </div>
   <div class="competency-item">
-    <h3><i class="fas fa-map-marked-alt"></i>GIS & Geospatial</h3>
+    <h3><i class="fas fa-map-marked-alt"></i>GIS & Geospatial Workflows</h3>
     <ul>
       <li>Spatial modeling & Data visualization</li>
       <li>Analytical decision-support systems</li>
@@ -158,7 +158,7 @@ My background includes navigating **Indigenous heritage** concerns and **environ
 
 <div class="competency-grid">
   <a href="/cv-json/" class="learning-badge">
-    <i class="fas fa-certificate"></i>
+    <i class="fa-solid fa-award"></i>
     <span class="badge-text">Advanced GIS Certificate (CUNY)</span>
   </a>
   <a href="/academic/" class="learning-badge">
@@ -170,7 +170,7 @@ My background includes navigating **Indigenous heritage** concerns and **environ
     <span class="badge-text">Skillsoft Percipio - Professional Scrum Master™ I (PSM I) <i>in-progress</i></span>
   </a>
   <a href="/cv-json/" class="learning-badge">
-    <i class="fas fa-tools"></i>
+    <i class="fa-solid fa-code"></i>
     <span class="badge-text">Technical Literacy <br> (Git, Markdown, Python, Java)</span>
   </a>
 </div>
