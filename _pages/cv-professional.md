@@ -345,7 +345,7 @@ author_profile: true
         <span class="compact-tag"><i class="fab fa-google"></i>Google Workspace</span>
         <span class="compact-tag"><i class="fas fa-square-root-alt"></i>LaTeX Formatting</span>
         <span class="compact-tag"><i class="fa-solid fa-bezier-curve"></i>CorelDraw</span>
-        <span class="compact-tag"><i class="fa-solid fa-image"></i>Adobe Photoshop</span>
+        <span class="compact-tag"><i class=add"fa-solid fa-image"></i>Adobe Photoshop</span>
       </div>
     </div>
     <div class="skill-group-row">
@@ -360,6 +360,13 @@ author_profile: true
   <h2 class="cv-section-title"><i class="fas fa-certificate"></i> Professional Certifications</h2>
   
   <div class="badge-card-grid">
+    <a href="https://skillsoft.digitalbadges.skillsoft.com/embed/a3351dd3-0bde-47fc-a558-48b87c2f3bc3" class="percipio-card" target="_blank" rel="noopener noreferrer">
+      <img src="/files/skillsoft_badges/80fb209e-4ac2-458d-854e-08b3766619f5.png" class="percipio-img" alt="Agile Badge">
+      <div class="percipio-info">
+        <h4>PSM I Bootcamp April 2025: Session 2 Replay</h4>
+        <p>Skillsoft Percipio • 2026</p>
+      </div>
+    </a>  
     <a href="https://skillsoft.digitalbadges.skillsoft.com/ce11212e-d33d-49e8-b327-965d3e5734b3" class="percipio-card" target="_blank" rel="noopener noreferrer">
       <img src="/files/skillsoft_badges/e6fba385-a1c5-4e05-be39-3efe80629410.png" class="percipio-img" alt="Agile Badge">
       <div class="percipio-info">
@@ -387,7 +394,7 @@ author_profile: true
         <h4>Effective Team Communication</h4>
         <p>Skillsoft Percipio • 2026</p>
       </div>
-    </a>  
+    </a>   
   </div>
   <br>
   <div class="cv-download-links">
