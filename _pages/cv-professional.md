@@ -360,6 +360,21 @@ author_profile: true
   <h2 class="cv-section-title"><i class="fas fa-certificate"></i> Professional Certifications</h2>
   
   <div class="badge-card-grid">
+   <a href="https://skillsoft.digitalbadges.skillsoft.com/embed/b4c7f735-a4f0-4508-ae64-e486780d6ba8" class="percipio-card" target="_blank" rel="noopener noreferrer">
+      <img src="/files/skillsoft_badges/c41f087b-26e4-4952-a4de-d9579ad0b6aa.png" class="percipio-img" alt="Agile Badge">
+      <div class="percipio-info">
+        <h4>CAPM®: Project Roles & Responsibilities</h4>
+        <p>Skillsoft Percipio • 2026</p>
+      </div>
+    </a>  
+   <a href="https://skillsoft.digitalbadges.skillsoft.com/embed/a1aab965-3730-46cd-98e2-41978e3deda7" class="percipio-card" target="_blank" rel="noopener noreferrer">
+      <img src="/files/skillsoft_badges/3da23a1c-7844-4d9d-9059-151a652e221d.png" class="percipio-img" alt="Agile Badge">
+      <div class="percipio-info">
+        <h4>CAPM®: Project Management Key Concepts</h4>
+        <p>Skillsoft Percipio • 2026</p>
+      </div>
+    </a>  
+
     <a href="https://skillsoft.digitalbadges.skillsoft.com/embed/a3351dd3-0bde-47fc-a558-48b87c2f3bc3" class="percipio-card" target="_blank" rel="noopener noreferrer">
       <img src="/files/skillsoft_badges/80fb209e-4ac2-458d-854e-08b3766619f5.png" class="percipio-img" alt="Agile Badge">
       <div class="percipio-info">
